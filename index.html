@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/font/fonts.css">
+    <link rel="stylesheet" href="./src/css/null.css">
+    <link rel="stylesheet" href="./src/css/main-styles.css">
+    <link rel="stylesheet" href="./src/css/media-styles.css">
+    <title>Test task</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <a href="#" class="header-logo"><img src="./src/imgs/logo.png" alt="site logo"></a>
+            <div class="header-login">
+                <form action="" class="login-form">
+                    <div class="user-email__login">
+                        <input type="email" name="email" id="email-login" placeholder="Email" value="">
+                        <span class="error__email-login"></span>
+                    </div>
+                    <div class="user-pass__login">
+                        <input type="password" name="password" id="password-login" placeholder="Password" value="">
+                        <a href="#" class="user-pass__remember">Forgot your password?</a>
+                        <span class="error__pass-login"></span>
+                    </div>
+                    <input id="submit-login" class="login-btn" type="button" value="Login">
+                </form>
+            </div>
+            <div class="burger-menu">
+                <div id="burger-open" class="burger-open">
+                    <span id="burger-span"> Login</span>
+                    <img id="burger-cross" src="./src/imgs/icons/icon-close.png" alt="">
+                </div>
+                <div id="burger-form" class="burger-form">
+                    <form action="" class="login-form">
+                        <div class="user-email__login">
+                            <input type="email" name="email" id="email-login" placeholder="Email" value="">
+                            <span class="error__email-login"></span>
+                        </div>
+                        <div class="user-pass__login">
+                            <input type="password" name="password" id="password-login" placeholder="Password" value="">
+                            <a href="#" class="user-pass__remember">Forgot your password?</a>
+                            <span class="error__pass-login"></span>
+                        </div>
+                        <input id="submit-login" class="login-btn" type="button" value="Login">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main-content">
+                <div class="main-content_title">
+                    <h1>StarCompany DESIGNS, MANUFACTURES AND <br><span>Launches Advanced Rockets and Spacecrafts</span>
+                    </h1>
+                </div>
+                <div class="main-content__registration">
+                    <form id="registration-form" action="" class="registration-form" novalidate>
+                        <button type="button" id="prevBtn" class="btn-previous">
+                            <img id="arrow-normal" src="./src/imgs/icons/arr-prv.png" alt="icon arrow">
+                            <img id="arrow-hover" src="./src/imgs/icons/arr-prv-hov.png" alt="icon arrow">
+                        </button>
+                        <div class="input-sliders">
+                            <div class="input-sliders_container">
+                                <div class="input-container show-input">
+                                    <div class="input-slider">
+                                        <div class="user-role">
+                                            <p> Who are you?</p>
+                                            <div class="user-role__items">
+                                                <select class="select" name="select">
+                                                    <option value="Engineer">Engineer</option>
+                                                    <option value="Business
+                                                    Developer Executive">Business
+                                                        Developer Executive</option>
+                                                    <option value="Office
+                                                    Manager/PA">Office
+                                                        Manager/PA</option>
+                                                    <option value="Accountant">Accountant</option>
+                                                    <option value="VR
+                                                    Designer">VR
+                                                        Designer</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-container">
+                                    <div class="input-slider">
+                                        <div class="user-age">
+                                            <p>What is your age?</p>
+                                            <div class="user-age__items">
+                                                <select class="select" name="age">
+                                                    <!-- <option value="enter your age" selected>enter your age</option> -->
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                </select>
+                                                <div id="error-age" class="error-message"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-container">
+                                    <div class="input-slider">
+                                        <div class="user-aria">
+                                            <p> I am from</p>
+                                            <input type="text" placeholder="New Roads, 70760" class="check-f" value=""
+                                                name="location">
+                                            <div id="error-aria" class="error-message"></div>
+                                        </div>
+
+                                    </div>
+                                    <p id="slider-info1" class="slider-info">E.g.: New Roads or 70760<br> We don’t use
+                                        postal addresses to contact members directly!</p>
+
+                                </div>
+                                <div class="input-container">
+                                    <div class="input-slider">
+                                        <div class="user-email">
+                                            <p>Your email address</p>
+                                            <input type="email" name="email" id="user-email" class="check-f" value=""
+                                                placeholder="Input your email">
+                                            <div id="error-email" class="error-message"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-container">
+                                    <div class="input-slider">
+                                        <div class="user-password">
+                                            <p>Create your password</p>
+                                            <input type="password" name="password" id class="check-f" value=""
+                                                placeholder="●●●●●●●●●●●●">
+                                            <div id="error-password" class="error-message"></div>
+                                        </div>
+                                    </div>
+                                    <p class="slider-info" id="slider-info2">
+                                        By clicking the button above you agree to our
+                                        <a href="#">Terms of Use</a>
+                                        and <a href="#">Privacy Policy</a> including use of
+                                        cookies and to
+                                        receive newsletters,
+                                        account updates and offers sent by StarCompany.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <button type="button" id="nextBtn" class="btn-next">
+                            <span id="btn-text1"> Next step</span>
+                            <span id="btn-text2"> Start now</span>
+                            <img id="arrow-next" src="./src/imgs/icons/arrow-nxt.png" alt="icon arrow">
+                            <img id="arrow-done" src="./src/imgs/icons/arrow-done.png" alt="icon arrow">
+                        </button>
+                    </form>
+                    <ul class="input-sliders__progress"></ul>
+                </div>
+
+
+            </section>
+        </main>
+    </div>
+    <script src="./src/js/login-validation.js"></script>
+    <script src="./src/js/custom_select.js"></script>
+    <script src="./src/js/slider-validation.js"></script>
+    <script src="./src/js/show-burger-validation.js"></script>
+</body>
+
+</html>

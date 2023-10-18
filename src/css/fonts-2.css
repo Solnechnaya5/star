@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'font05213ba9450b7faef5968933e4e1b510';
+        
+        src:    url('https://nomail.com.ua/files/eot/05213ba9450b7faef5968933e4e1b510.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/05213ba9450b7faef5968933e4e1b510.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/05213ba9450b7faef5968933e4e1b510.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'ProximaNova-Bold';  src: local('ProximaNova-BoldCondensed'), url('https://nomail.com.ua/files/woff/05213ba9450b7faef5968933e4e1b510.woff') format('woff'); }
+
+    @font-face {
+        font-family: 'fontaee5e23445ebb8aaca3747470069d3a9';
+            
+            src:    url('https://nomail.com.ua/files/eot/aee5e23445ebb8aaca3747470069d3a9.eot?#iefix') format('embedded-opentype'),
+                    url('https://nomail.com.ua/files/woff/aee5e23445ebb8aaca3747470069d3a9.woff') format('woff'),
+                    url('https://nomail.com.ua/files/woff2/aee5e23445ebb8aaca3747470069d3a9.woff2') format('woff2');
+        }
+        
+        @font-face { font-family: 'ProximaNova-Light';  src: local('ProximaNova-LightCondensed'), url('https://nomail.com.ua/files/woff/aee5e23445ebb8aaca3747470069d3a9.woff') format('woff'); }
+            

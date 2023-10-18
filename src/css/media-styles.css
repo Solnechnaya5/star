@@ -1,0 +1,117 @@
+@media(max-width: 1024px){
+    .header {
+       justify-content: space-between;
+       position: relative;
+      }
+      .header-logo{
+        margin-right: 0;
+        margin-left: 40px;
+      }
+      .header-login{
+        display: none;
+      }
+      .burger-menu{
+        display: block;
+    right: 40px;
+    width: 200px;
+      }
+      .main-content {
+      
+        width: calc(320px + (871 - 320)*((100vw - 320px) / (1024 - 320)));
+        }  
+        .main-content_title {
+            padding: 0 40px;
+        }
+      .main-content_title h1{
+        font-size: calc(20px + (38 - 20)*((100vw - 320px) / (1024 - 320)));
+        margin: 0 20px;
+      }
+      .registration-form{
+        margin-left: 5%;
+      }
+      .input-sliders__progress{
+        margin-left: 29%;
+      }
+}
+@media (max-width: 800px) {
+    .registration-form {
+      margin-left: 3%;
+    }
+  }
+  @media (max-width: 680px) {
+    .registration-form {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .btn-previous{
+        top: 0;
+        position: absolute;
+        left: 120px;
+    }
+    .btn-next{
+        position: absolute;
+        top: 0;
+        right: 120px;
+    }
+    .input-sliders__progress{
+        margin-left: 15%;
+      }
+      .input-sliders{
+        order: 1;
+        position: absolute;
+        top: 80px;
+      }
+      .input-sliders__progress{
+        position: absolute;
+        top: 230px;
+      }
+  }
+  @media (max-width: 480px) {
+    
+    .header-logo {
+      width: 204px;
+      height: 55px;}
+    .registration-form{
+        margin-left: 0;
+    }
+    .input-sliders__progress {
+        margin-left: 45px;
+      }
+    .btn-previous{
+        top: 0;
+        position: absolute;
+        left: 60px;
+    }
+    .btn-next{
+        position: absolute;
+        top: 0;
+        right: 60px;
+    }
+  }
+  @media (max-width: 360px) {
+    .header{
+        flex-direction: column;
+    }
+    .burger-menu {
+        width: 200px;
+        left: 140px;
+       margin-top: 0;
+       top: -10px;
+  }
+  .burger-form{
+    width: 280px;
+    padding: 10px;
+    background-color: rgba(43, 161, 234, 0.443);
+    box-shadow: 0px 1px 12px 0px rgba(43, 160, 234, 0.66);
+  }
+  .burger-form.show-burger{
+    left: 0;
+  }
+  .burger-form input{
+    box-shadow: 0px 1px 7px 0px rgba(43, 160, 234, 0.66);
+  }
+  .input-sliders__progress {
+    margin-left: 0px;
+  }
+}
